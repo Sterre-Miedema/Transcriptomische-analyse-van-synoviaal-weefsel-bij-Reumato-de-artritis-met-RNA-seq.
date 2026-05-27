@@ -50,9 +50,8 @@ Voor een KEGG-analyse moesten de genen omgezet worden naar Entrez-IDÕs. met bitr
 De RNA-seq analyse van synoviaal weefsel van pati‘nten met RA vergeleken met controle (gezonde mensen) lieten duidelijke verschillen zien in genexpressie. In totaal werden er 29407 genen getest op differenti‘le expressie en deze resultaten zijn in een volcano plot (figuur 1) uitgezet. Op basis van de drempels padj < 0.05 en log2FC > 1 É. Figuur 1 toont 3 groepen genen: Grijs: niet-significante genen, groen: genen met grote fold-change maar niet significant en rood: genen die een grote fold change hebben en significant zijn.
 
 
-<p align =ÓcenterÓ>
-<img src = ÒResultaten/Vulcanoplotreuma.pngÓ alt = ÒBeschrijving plaatjeÓ
-width = Ò600Ó/>
+<p align="center">
+  <img src="Resultaten/Vulcanoplotreuma.png" alt="Volcano plot RA" width="600">
 </p>
 
 Meerdere genen hebben een hoge absolute log2foldchange en een lage p-waarde waardoor er een grote significante differenti‘le expressie wordt aangetoond. Zo is er een sterke toename in regulatie van verschillende immuunglobuline-gerelateerde genen, waaronder IGHV3-53, IGHV1-69, IGHV4 en IGHV4-31. Deze verhoogde expressie wijst op een sterke activatie van B-cellen waardoor de auto-antistof productie hoog aanwezig is. Dat is een kenmerkend mechanisme in RA. https://pmc.ncbi.nlm.nih.gov/articles/PMC11155132/   https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/j.1749-6632.1997.tb52074.x?sid=nlm%3Apubmed 
