@@ -8,7 +8,7 @@
 
 Reumato•de artritis (RA) is een chronische, systemische auto-immuunziekte die wereldwijd ongeveer 0,3/0,5-1% van de bevolking treft (Gabriel, 2001; Platzer et al., 2019). Het treft vrouwen vaker van mannen (Gabriel, 2001; Majithia & Geraci, 2007; Platzer et al., 2019). Deze ontstekingsziekte ontstaat doordat het afweersysteem de eigen gewrichten aan, waardoor zowel grote als kleine gewrichten ontstoken raken (Majithia & Geraci, 2007). De exacte oorzaak van RA is nog niet volledig bekend maar de ziekte ontstaat vermoedelijk door een complexe interactie tussen genetische aanleg, verandering in genexpressie, omgevingsfactoren en een ontregeld immuunsysteem (Platzer et al., 2019). Omdat blijvende schade al vroeg kan ontstaan tijdens de ziekte door aanhoudende ontsteking (Platzer et al., 2019), is een snelle diagnose en behandeling essentieel. Hoewel verschillende geneesmiddelen de ziekteactiviteit kunnen remmen, bestaat er momenteel geen genezende therapie. 
 Door de grote variatie in symptomen en behandelrespons wordt aangenomen dat RA uit meerdere subtypen bestaat (Platzer et al., 2019). Transcriptomics kan hierin waardevolle mogelijkheden bieden. Met methoden zoals RNA-sequencing kan de expressie van duizenden genen tegelijk worden onderzocht waardoor er een overzicht ontstaat in moleculaire mechanismen en signaalroutes (Robles-Remacho et al., 2023). Aangezien RA een ontstekingsreactie geeft in het weefsel, kan transcriptomics een mogelijke bijdrage leveren aan een betere diagnose.
-
+==> Moet nog een doelstelling in
 
 ## Materiaal en methode
 Voor deze transcriptomics analyse werden RNA-sequenties gebruikt afkomstig uit de studie van platzer et al. (2019). In deze studie werden synoviumbiopten verzameld van 4 gezonde individuen, en 4 pati‘nten met vastgestelde Reumato•de artritis (RA) uit het gewrichtsslijmvlies. Alle deelnemers waren tussen de 15 en 66 jaar en vrouwelijk. De gebruikte samples zijn:
@@ -42,3 +42,4 @@ Omdat RNA-seq gevoelig is voor genlengte-bias (ff ander woord voor zoeken) werd 
 
 Voor een KEGG-analyse moesten de genen omgezet worden naar Entrez-IDÕs. met bitr() werden SYMBOL -> ENTREZID conversies uitgevoerd (wat betekend conversies?). Met pathview werden genexpressiewijzigingen geprojecteerd op KEGG-pathways (hsa05323 Ð RA, hsa04010 Ð MAPK signaling pathway).
 
+blabla
