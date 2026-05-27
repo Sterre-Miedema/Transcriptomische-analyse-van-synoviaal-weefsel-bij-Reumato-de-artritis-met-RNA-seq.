@@ -45,7 +45,7 @@ Voor een KEGG-analyse moesten de genen omgezet worden naar Entrez-IDÕs. met bitr
 
 ## Resultaten
 
-*Verhoogde expressie van immuunglobuline- en ontsteking gerelateerde genen in Reumato•de artritis vergeleken met de controlegroep.*
+**Verhoogde expressie van immuunglobuline- en ontsteking gerelateerde genen in Reumato•de artritis vergeleken met de controlegroep.**
 
 De RNA-seq analyse van synoviaal weefsel van pati‘nten met RA vergeleken met controle (gezonde mensen) lieten duidelijke verschillen zien in genexpressie. In totaal werden er 29407 genen getest op differenti‘le expressie en deze resultaten zijn in een volcano plot (figuur 1) uitgezet. Op basis van de drempels padj < 0.05 en log2FC > 1 É. Figuur 1 toont 3 groepen genen: Grijs: niet-significante genen, groen: genen met grote fold-change maar niet significant en rood: genen die een grote fold change hebben en significant zijn.
 
