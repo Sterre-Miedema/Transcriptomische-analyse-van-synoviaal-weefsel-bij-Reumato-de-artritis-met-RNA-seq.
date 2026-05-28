@@ -13,19 +13,11 @@ Door de grote variatie in symptomen en behandelrespons wordt aangenomen dat RA u
 ==> Moet nog een doelstelling in
 
 ## Materiaal en methode
-Voor deze transcriptomics analyse werden RNA-sequenties gebruikt afkomstig uit de studie van platzer et al. (2019). In deze studie werden synoviumbiopten verzameld van 4 gezonde individuen, en 4 patiënten met vastgestelde Reumatoïde artritis (RA) uit het gewrichtsslijmvlies. Alle deelnemers waren tussen de 15 en 66 jaar en vrouwelijk. De gebruikte samples zijn:
-SRR4785819
-31VrouwNormaalSRR4785820
-15VrouwNormaalSRR4785828
-31VrouwNormaalSRR4785831
-42VrouwNormaalSRR4785979
-54VrouwRASRR4785980
-66VrouwRASRR4785986
-60VrouwRASRR4785988
-59VrouwRA
+Voor deze transcriptomics analyse werden RNA-sequenties gebruikt afkomstig uit de studie van platzer et al. (2019). In deze studie werden synoviumbiopten verzameld van 4 gezonde individuen, en 4 patiënten met vastgestelde Reumatoïde artritis (RA) uit het gewrichtsslijmvlies. 
+
 De ruwe RNA-seq FASTQ bestanden werden vanuit de Sequence Read Archive (SRA) gedownload. De verdere analyse werd uitgevoerd in R. 
 
-Alle analyses werden uitgevoerd in R (versie ? 4.0) op macOS. De volgende Bioconductor- packages werden gebruikt: Rsubread, Rsamtools, DESeg2, EnhancedVolcano, goseq, geneLenDataBase, org.Hs.eg.db, clusterProfiler, pathview en ggplot2. Alle packages werden geïnstalleerd via BiocManager. 
+Alle analyses werden uitgevoerd in R (versie > 4.0) op macOS. De volgende Bioconductor- packages werden gebruikt: Rsubread(2.24.0), Rsamtools, DESeg2, EnhancedVolcano, goseq, geneLenDataBase, org.Hs.eg.db, clusterProfiler, pathview en ggplot2. Alle packages werden geïnstalleerd via BiocManager. 
 
 Het humane referentiegenoom (GCF_000001405.40) en de GTF-annotatie werden gedownload vanaf NCBI. Met de functie buildindex() uit Rsubread werd een genoomindex aangemaakt: memory = 4000, indexSlit = TRUE en basename = “ref_humaan”.
 
