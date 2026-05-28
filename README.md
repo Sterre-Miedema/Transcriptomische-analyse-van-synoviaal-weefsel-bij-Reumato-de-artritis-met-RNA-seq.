@@ -1,3 +1,5 @@
+<meta charset="UTF-8">
+
 # reuma-08-05
 
 
