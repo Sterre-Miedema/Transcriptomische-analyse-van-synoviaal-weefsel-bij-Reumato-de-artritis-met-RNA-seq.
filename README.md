@@ -35,15 +35,15 @@ De RNA-seq analyse van synoviaal weefsel lieten duidelijke verschillen zien in g
 </p>
 
 
-** Verhoogde activatie van immuunprocessen in RA **
+**Verhoogde activatie van immuunprocessen in RA.**
 De GO-analyse laat een verijking zien van biologische processen betrokken bij immuungerelateerde processen (figuur 2). De meest significante GO-categorie is het immunoglobulin complex, gevolgd door adaptive immune respons. Deze resultaten wijzen op een sterke activatie van immuunprocessen in het synoviale weefsel van patiënten met RA. Voor de KEGG-analyse wordt het immuunsysteem bekeken.
 
-** Verhoogde T-celactivatie en MAPK-signaaltransductie in RA **
+**Verhoogde T-celactivatie en MAPK-signaaltransductie in RA.**
 De KEGG-analyse van de T-celreceptor signaalroute (hsa04660) laat zien dat T-celactivatie verhoogd tot expressie komt. De pathway toont dat zowel co-stimulatoire moleculen zoals CD28, CTLA4 en CD86 en de MAPK-route verhoogde expressie tonen. MAPK is een belangrijke route voor signaaltransductieroutes zoals celprofilatie, celdiffenrentiatie en celdood (19) en dus belangrijke factor in ontstekingsprocessen (20).
 
 
 <p align="center">
-  <img src="Resultaten/hsa05323.pathview.png" alt="hsa04660 pathview" width="600">
+  <img src="Resultaten/hsa04660.pathview.png" alt="hsa04660 pathview" width="600">
 </p>
 
 
