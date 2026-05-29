@@ -12,7 +12,7 @@ Door de grote variatie in symptomen en behandelrespons wordt aangenomen dat RA u
 ## Materiaal en methode
 Voor deze transcriptomics analyse werden RNA-sequenties gebruikt en Fastq bestanden gedownload afkomstig uit de studie van platzer et al. (2019) (1). In de  studie werden synoviumbiopten verzameld van 4 gezonde individuen, en 4 patiënten met vastgestelde Reumatoïde artritis (RA) uit het gewrichtsslijmvlies. 
 
-Alle analyses werden uitgevoerd in R (versie > 4.0) op macOS. De volgende Bioconductor- packages werden gebruikt: Rsubread(2.24.0) (5), Rsamtools (2.26.0) (6), DESeg2 (1.50.2) (7), EnhancedVolcano (8), goseq (1.62.0) (9), geneLenDataBase (1.28.2), org.Hs.eg.db (3.22.0), clusterProfiler (4.18.4), pathview (1.50.0) en ggplot2 (4.0.3). Alle packages werden geïnstalleerd via BiocManager. 
+Alle analyses werden uitgevoerd in R (versie > 4.0) op macOS. De volgende Bioconductor- packages werden gebruikt: Rsubread(2.24.0) (5), Rsamtools (2.26.0) (6), DESeg2 (1.50.2) (7), EnhancedVolcano (8), goseq (1.62.0) (9), geneLenDataBase (1.28.2) (10), org.Hs.eg.db (3.22.0) (11), clusterProfiler (4.18.4) (11), pathview (1.50.0) (11), dplyr (1.2.1) (12) en ggplot2 (4.0.3) (13). Alle packages werden geïnstalleerd via BiocManager. 
 
 Het humane referentiegenoom (GCF_000001405.40) en de GTF-annotatie werden gedownload vanaf NCBI. 
 Vervolgens weden de BAM-bestanden gesorteerd en geïndexeerd. Met featureCounts werd een count matrix opgesteld. Deze count matrix werd gebruikt voor de differentiële expressieanalyse met DESeq2 (pad < 0,05;Log2FoldChange > 1). De RNA-seq analyse identificeerde 29407 genen in synovia weefsel
