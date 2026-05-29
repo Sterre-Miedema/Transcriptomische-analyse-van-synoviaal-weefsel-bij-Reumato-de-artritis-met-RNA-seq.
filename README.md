@@ -36,11 +36,6 @@ De RNA-seq analyse identificeerde 29407 genen. Met DESeq2 werden tot expressie g
 De RNA-seq analyse van synoviaal weefsel lieten duidelijke verschillen zien in genexpressie. In totaal werden er 29407 genen getest op differentiële expressie en deze resultaten zijn in een volcano plot (figuur 1) uitgezet. Op basis van de drempels padj < 0.05 en log2FC > 1 is er een significante toe- of afname zichtbaar in verschillende immuunglobuline-gerelateerde genen(IGHV3-53 [(14)](./Bronnen), IGHV1-69 [(15)](./Bronnen) en IGHV4-31 [(16)](./Bronnen)) en ontsteking gerelateerde genen (CXCR1 [(17)](./Bronnen) en PTGFR [(18)](./Bronnen)). [Figuur 1](Resultaten/VolcanoplotReuma.png) toont 3 groepen genen: Grijs: niet-significante genen, groen: genen met grote fold-change maar niet significant en rood: genen die een grote fold change hebben en significant zijn.
 
 
-<p align="center">
-  <img src="Resultaten/VolcanoplotReuma.png" alt="Volcano plot RA" width="400">
-</p>
-
-
 **Verhoogde activatie van immuunprocessen in RA.**
 
 De GO-analyse laat een verijking zien van biologische processen betrokken bij immuungerelateerde processen [(figuur 2)](Resultaten/GO-analysereuma.png). De meest significante GO-categorie is het immunoglobulin complex, gevolgd door adaptive immune respons. Deze resultaten wijzen op een sterke activatie van immuunprocessen in het synoviale weefsel van patiënten met RA. Voor de KEGG-analyse wordt het immuunsysteem bekeken.
@@ -48,11 +43,6 @@ De GO-analyse laat een verijking zien van biologische processen betrokken bij im
 **Verhoogde T-celactivatie en MAPK-signaaltransductie in RA.**
 
 De KEGG-analyse [(figuur 3)](Resultaten/hsa04660.pathview.png) van de T-celreceptor signaalroute (hsa04660) laat zien dat T-celactivatie verhoogd tot expressie komt. De pathway toont dat zowel co-stimulatoire moleculen zoals CD28, CTLA4 en CD86 en de MAPK-route verhoogde expressie tonen. MAPK is een belangrijke route voor signaaltransductieroutes zoals celprofilatie, celdiffenrentiatie en celdood [(19)](./Bronnen) en dus belangrijke factor in ontstekingsprocessen [(20)](./Bronnen).
-
-
-<p align="center">
-  <img src="Resultaten/hsa04660.pathview.png" alt="hsa04660 pathview" width="600">
-</p>
 
 
 ## Conclusie
