@@ -43,7 +43,7 @@ De RNA-seq analyse van synoviaal weefsel lieten duidelijke verschillen zien in g
 
 **Verhoogde activatie van immuunprocessen in RA.**
 
-De GO-analyse laat een verijking zien van biologische processen betrokken bij immuungerelateerde processen (figuur 2). De meest significante GO-categorie is het immunoglobulin complex, gevolgd door adaptive immune respons. Deze resultaten wijzen op een sterke activatie van immuunprocessen in het synoviale weefsel van patiënten met RA. Voor de KEGG-analyse wordt het immuunsysteem bekeken.
+De GO-analyse laat een verijking zien van biologische processen betrokken bij immuungerelateerde processen [(figuur 2)](Resultaten/GO-analysereuma.png). De meest significante GO-categorie is het immunoglobulin complex, gevolgd door adaptive immune respons. Deze resultaten wijzen op een sterke activatie van immuunprocessen in het synoviale weefsel van patiënten met RA. Voor de KEGG-analyse wordt het immuunsysteem bekeken.
 
 **Verhoogde T-celactivatie en MAPK-signaaltransductie in RA.**
 
