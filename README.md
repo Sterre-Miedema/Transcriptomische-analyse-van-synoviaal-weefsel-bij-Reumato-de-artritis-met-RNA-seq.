@@ -1,4 +1,4 @@
-# reuma-08-05
+# Transcriptomische analyse van synoviaal weefsel bij *Reumatoïde artritis* met RNA-seq.
 
 
 
