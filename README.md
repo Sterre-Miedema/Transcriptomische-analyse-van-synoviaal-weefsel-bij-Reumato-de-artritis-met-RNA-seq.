@@ -23,29 +23,41 @@ De resultaten van de expressieanalyse werden gevisualiseerd in een volcanoplot m
 
 ## Resultaten
 
+De RNA-seq analyse identificeerde 29407 genen. Met DESeq2 werden tot expressie gekomen genen bepaald (pad < 0,05; log2FoldChange > 1). Vooral immuunglobulinegenen (IGHV3-53 (14), IGHV1-69 (15) en IGHV4-31 (16)) en ontstekingsgerelateerde genen (CXCR1 (17) en PTGFR (18)) waren verhoogd tot expressie gebracht.
+
 **Verhoogde expressie van immuunglobuline- en ontsteking gerelateerde genen in Reumatoïde artritis vergeleken met de controlegroep.**
 
-De RNA-seq analyse van synoviaal weefsel van patiënten met RA vergeleken met controle (gezonde mensen) lieten duidelijke verschillen zien in genexpressie. In totaal werden er 29407 genen getest op differentiële expressie en deze resultaten zijn in een volcano plot (figuur 1) uitgezet. Op basis van de drempels padj < 0.05 en log2FC > 1 is er een significante toe- of afname zichtbaar in verschillende immuunglobuline-gerelateerde genen en ontsteking gerelateerde genen. Figuur 1 toont 3 groepen genen: Grijs: niet-significante genen, groen: genen met grote fold-change maar niet significant en rood: genen die een grote fold change hebben en significant zijn.
+De RNA-seq analyse van synoviaal weefsel lieten duidelijke verschillen zien in genexpressie. In totaal werden er 29407 genen getest op differentiële expressie en deze resultaten zijn in een volcano plot (figuur 1) uitgezet. Op basis van de drempels padj < 0.05 en log2FC > 1 is er een significante toe- of afname zichtbaar in verschillende immuunglobuline-gerelateerde genen(IGHV3-53 (14), IGHV1-69 (15) en IGHV4-31 (16)) en ontsteking gerelateerde genen (CXCR1 (17) en PTGFR (18)). Figuur 1 toont 3 groepen genen: Grijs: niet-significante genen, groen: genen met grote fold-change maar niet significant en rood: genen die een grote fold change hebben en significant zijn.
 
 
 <p align="center">
   <img src="Resultaten/VolcanoplotReuma.png" alt="Volcano plot RA" width="600">
 </p>
 
+
+** Verhoogde activatie van immuunprocessen in RA **
+De GO-analyse laat een verijking zien van biologische processen betrokken bij immuungerelateerde processen (figuur 2). De meest significante GO-categorie is het immunoglobulin complex, gevolgd door adaptive immune respons. Deze resultaten wijzen op een sterke activatie van immuunprocessen in het synoviale weefsel van patiënten met RA. Voor de KEGG-analyse wordt het immuunsysteem bekeken.
+
+** Verhoogde T-celactivatie en MAPK-signaaltransductie in RA **
+De KEGG-analyse van de T-celreceptor signaalroute (hsa04660) laat zien dat T-celactivatie verhoogd tot expressie komt. De pathway toont dat zowel co-stimulatoire moleculen zoals CD28, CTLA4 en CD86 en de MAPK-route verhoogde expressie tonen. MAPK is een belangrijke route voor signaaltransductieroutes zoals celprofilatie, celdiffenrentiatie en celdood (19) en dus belangrijke factor in ontstekingsprocessen (20).
+
+
+<p align="center">
+  <img src="Resultaten/hsa05323.pathview.png" alt="hsa04660 pathview" width="600">
+</p>
+
+
+## Conclusie
+Op basis van de uitgevoerde RNA-seq analyse van synoviaal weefsel uit reumatoïde artritis (RA) en gezonde controles kan geconcludeerd worden dat er een verhoogde ontstekingsactiviteit en immuun activatie is. De analyse van de KEGG-pathway laat zien dat er een groot aantal aan genen significant verhoogd of verlaagd tot expressie komen in RA. Veel van deze genen zijn betrokken bij cytokinesignalering, chemokine productie en immuuncelactivatie, wat past bij de kenmerken van wat bekend is van RA. 
+De GO-analyse bevestigde dat vooral processen gerelateerd aan ontsteking, immuunrespons en celactivatie verhoogd zijn. De KEGG-analyse laat zien dat meerdere routes sterk stegen in activatie, waaronder de T cell receptor signaling pathway, Toll-like receptor, osteoclast differentiatie en de VEGF signaling pathway.
+De resultaten sluiten goed aan bij de bevindingen uit de studie van Platzer et al. (2019). Hieruit is de gebruikte dataset afkomstig. De combinatie van de DE-analyse, GO-verrijking en de KEGG-pathway visualisatie geeft een goed beeld van RA door ontstekingen en auto-immuun activatie.
+
+
+Maybeeee ------ vulcanoplot
 Meerdere genen hebben een hoge absolute log2foldchange en een lage p-waarde waardoor er een grote significante differentiële expressie wordt aangetoond. Zo is er een sterke toename in regulatie van verschillende immuunglobuline-gerelateerde genen, waaronder IGHV3-53, IGHV1-69, IGHV4 en IGHV4-31. Deze verhoogde expressie wijst op een sterke activatie van B-cellen waardoor de auto-antistof productie hoog aanwezig is. Dat is een kenmerkend mechanisme in RA. https://pmc.ncbi.nlm.nih.gov/articles/PMC11155132/   https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/j.1749-6632.1997.tb52074.x?sid=nlm%3Apubmed 
 Daarnaast werden inflammatiegenen zoals CXCR1, PTGFR, BAX en CRACC verhoogd tot expressie gebracht. Dit betekent dat immunactivatie en ontstekingssignalering sterk aanwezig is in de onderzochte monsters. https://pubmed.ncbi.nlm.nih.gov/17976416/ ook een belangrijk symptoom van RA is ontsteking.
 
 **Verhoogde activatie van ontsteking-, chemokine- en immuunroutes in de KEGG-pathway**
 
 De KEGG pathway analyse van de rheumatoid arthritis pathway toonde een sterke activatie van inflammatoire en immuun ondersteunende signaalroutes. Verschillende cytokines, waaronder TNF?, IL6, IL1?, IL15 en IFN?, waren verhoogd in tegenstelling tot de controle, wat kan betekenen op een actieve ontsteking in het synovium. https://www.researchgate.net/profile/Jagdish-Joshi/publication/309303196_Cytokines_and_their_Role_in_Health_and_Disease_A_Brief_Overview/links/59029b26aca2725bd7223c13/Cytokines-and-their-Role-in-Health-and-Disease-A-Brief-Overview.pdf https://www.termedia.pl/The-role-of-cytokines-and-chemokines-in-the-inflammatory-response,123,51557,1,0.html  Daarnaast werd verhoogde expressie waargenomen van chemokines zoals CCL2, CCL3, CCL20, CXCL1, CXCL5 en IL8, die betrokken zijn bij ontsteking van in dit geval het gewricht https://www.termedia.pl/The-role-of-cytokines-and-chemokines-in-the-inflammatory-response,123,51557,1,0.html . De analyse liet ook activatie zien van T-cel gerelateerde signalering, waaronder verhoogde expressie van CD28, CTLA4 en CD86, wat duidt op versterkte adaptieve immuunresponsen https://www.nature.com/articles/s41392-023-01471-y . Tenslotte werden genen geassocieerd met osteoclasten, zoals MMP13, CTSK en RANK ook een verhoogde waarde zien. Osteoclasten zijn kleine cellen in het lichaam die botten afbreken https://www.sciencedirect.com/science/article/abs/pii/S8756328206007009 . 
-
-<p align="center">
-  <img src="Resultaten/hsa05323.pathview.png" alt="hsa05323 pathview" width="600">
-</p>
-
 Deze pathway analyse bevestigt dat de onderzochte monsters van de zieke patiënten last hebben van ontstoken gewrichten en het immuunsysteem het gewricht aanvalt.
-
-## Conclusie
-Op basis van de uitgevoerde RNA-seq analyse van synoviaal weefsel uit reumatoïde artritis (RA) en gezonde controles kan geconcludeerd worden dat er een verhoogde ontstekingsactiviteit en immuun activatie is. De analyse van de KEGG-pathway laat zien dat er een groot aantal aan genen significant verhoogd of verlaagd tot expressie komen in RA. Veel van deze genen zijn betrokken bij cytokinesignalering, chemokine productie en immuuncelactivatie, wat past bij de kenmerken van wat bekend is van RA. 
-De GO-analyse bevestigde dat vooral processen gerelateerd aan ontsteking, immuunrespons en celactivatie verhoogd zijn. De KEGG-analyse laat zien dat meerdere routes sterk stegen in activatie, waaronder de T cell receptor signaling pathway, Toll-like receptor, osteoclast differentiatie en de VEGF signaling pathway.
-De resultaten sluiten goed aan bij de bevindingen uit de studie van Platzer et al. (2019). Hieruit is de gebruikte dataset afkomstig. De combinatie van de DE-analyse, GO-verrijking en de KEGG-pathway visualisatie geeft een goed beeld van RA door ontstekingen en auto-immuun activatie.
