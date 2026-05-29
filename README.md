@@ -37,7 +37,7 @@ De RNA-seq analyse van synoviaal weefsel lieten duidelijke verschillen zien in g
 
 
 <p align="center">
-  <img src="Resultaten/VolcanoplotReuma.png" alt="Volcano plot RA" width="600">
+  <img src="Resultaten/VolcanoplotReuma.png" alt="Volcano plot RA" width="400">
 </p>
 
 
