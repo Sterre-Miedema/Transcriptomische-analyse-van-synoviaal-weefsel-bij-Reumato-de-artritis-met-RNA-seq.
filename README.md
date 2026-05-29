@@ -20,7 +20,7 @@ Voor deze transcriptomics analyse werden RNA-sequenties gebruikt en Fastq bestan
 
 Alle analyses werden uitgevoerd in R (versie > 4.0) op macOS. De volgende Bioconductor- packages werden gebruikt: Rsubread(2.24.0) [(5)](./Bronnen), Rsamtools (2.26.0) [(6)](./Bronnen), DESeg2 (1.50.2) [(7)](./Bronnen), EnhancedVolcano [(8)](./Bronnen), goseq (1.62.0) [(9)](./Bronnen), geneLenDataBase (1.28.2) [(10)](./Bronnen), org.Hs.eg.db (3.22.0) [(11)](./Bronnen), clusterProfiler (4.18.4) [(11)](./Bronnen), pathview (1.50.0) [(11)](./Bronnen), dplyr (1.2.1) [(12)](./Bronnen) en ggplot2 (4.0.3) [(13)](./Bronnen). Alle packages werden geïnstalleerd via BiocManager. 
 
-Het humane referentiegenoom [(GCF_000001405.40)](Bronnen/Homo sapiens genome assembly GRCh38.p14 - NCBI - NLM) en de GTF-annotatie werden gedownload vanaf NCBI. 
+Het humane referentiegenoom [(GCF_000001405.40)](Bronnen/GCF_000001405.40) en de GTF-annotatie werden gedownload vanaf NCBI. 
 Vervolgens weden de BAM-bestanden gesorteerd en geïndexeerd. Met featureCounts werd een count matrix opgesteld. Deze count matrix werd gebruikt voor de differentiële expressieanalyse met DESeq2 (pad < 0,05;Log2FoldChange > 1). De RNA-seq analyse identificeerde 29407 genen in synovia weefsel
 
 De resultaten van de expressieanalyse werden gevisualiseerd in een volcanoplot met EnhancedVolcano. Vervolgens werd een GO-analyse uitgevoerd met goseq om de biologische processen te identificeren. Hieruit is een KEGG-pathway (hsa04660; T cell receptor signaling pathway) gekozen. Met bitr() zijn de gen-ID's omgezet naar Entrez-ID's.
