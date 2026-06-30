@@ -36,7 +36,7 @@ De RNA-seq analyse identificeerde 29407 genen. Met DESeq2 werden tot expressie g
 De RNA-seq analyse van synoviaal weefsel lieten duidelijke verschillen zien in genexpressie. In totaal werden er 29407 genen getest op differentiële expressie en deze resultaten zijn in een volcano plot (figuur 1) uitgezet. Op basis van de drempels padj < 0.05 en log2FC > 1 is er een significante toe- of afname zichtbaar in verschillende immuunglobuline-gerelateerde genen(IGHV3-53 [(14)](./Bronnen), IGHV1-69 [(15)](./Bronnen) en IGHV4-31 [(16)](./Bronnen)) en ontsteking gerelateerde genen (CXCR1 [(17)](./Bronnen) en PTGFR [(18)](./Bronnen)). Zie [Figuur 1](Resultaten/VolcanoplotReuma.png). 
 
 <p align =”center”>
-<img src = “VolcanoplotReuma.png” alt = “VolcanoplotReuma.png”
+<img src = “Resultaten” alt = “VolcanoplotReuma.png”
 width = “400”/>
 </p>
 
