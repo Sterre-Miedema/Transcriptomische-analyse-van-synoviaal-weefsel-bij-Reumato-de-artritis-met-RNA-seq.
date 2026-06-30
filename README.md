@@ -45,9 +45,21 @@ De RNA-seq analyse van synoviaal weefsel lieten duidelijke verschillen zien in g
 
 De GO-analyse laat een verrijking zien van biologische processen betrokken bij immuungerelateerde processen [(figuur 2)](Resultaten/GO-analysereuma.png). De meest significante GO-categorie is het immunoglobulin complex, gevolgd door adaptive immune respons. Deze resultaten wijzen op een sterke activatie van immuunprocessen in het synoviale weefsel van patiënten met RA. Voor de KEGG-analyse wordt het immuunsysteem bekeken.
 
+<p align="center">
+  <img src="Resultaten/GO-analysereuma.png" alt="GO-analyse" width="400">
+</p>
+
+<sub> Figuur 2. Top 10 verrijkte GO-termen voor up en down-regulated genen bij *Reumatoïde artritis*. De hoogte van de balken geven de -log10(adjusted P-waarde) weer.
+
 **Verhoogde T-celactivatie en MAPK-signaaltransductie in RA.**
 
 De KEGG-analyse [(figuur 3)](Resultaten/hsa04660.pathview.png) van de T-celreceptor signaalroute (hsa04660) laat zien dat T-celactivatie verhoogd tot expressie komt. De pathway toont dat zowel co-stimulatoire moleculen zoals CD28, CTLA4 en CD86 en de MAPK-route verhoogde expressie tonen. MAPK is een belangrijke route voor signaaltransductieroutes zoals celprofilatie, celdiffenrentiatie en celdood [(19)](./Bronnen) en dus belangrijke factor in ontstekingsprocessen [(20)](./Bronnen).
+
+<p align="center">
+  <img src="Resultaten/hsa04660.pathview.png" alt="hsa04660.pathview" width="400">
+</p>
+
+<sub> Figuur 3. KEGG-pathway analyse van *Reumatoïde artritis* (hsa04660) pathway met differentieel tot expressie gebrachte genen. Rood gekleurde genen (upregulated) tonen een log2fold change > 1, groen gekleurde genen (downregulated) tonen een log2foldc change < 1 en de grijs gekleurde genen tonen de genen waarvoor geen differentiële expressie is waargenomen. De kleurintensiviteit geeft de grootte van de log2fold change weer.
 
 
 ## Conclusie
