@@ -29,9 +29,11 @@ De resultaten van de expressieanalyse werden gevisualiseerd in een volcanoplot m
 
 ## Resultaten
 
-De RNA-seq analyse identificeerde 29407 genen. Met DESeq2 werden tot expressie gekomen genen bepaald (pad < 0,05; log2FoldChange > 1). Vooral immuunglobulinegenen (IGHV3-53 [(14)](./Bronnen), IGHV1-69 [(15)](./Bronnen) en IGHV4-31 [(16)](./Bronnen)) en ontstekingsgerelateerde genen (CXCR1 [(17)](./Bronnen) en PTGFR [(18)](./Bronnen)) waren verhoogd tot expressie gebracht.
+Om genen te identificeren die differentieel tot expressie komen tussen de patiënten met RA en de gezonde controle, werd een differentiële genexpressie-analyse uitgevoerd met DESeq2. In totaal werden 29,407 genen geanalyseerd. Hiervan kwamen 2.085 genen significant verhoogd tot expressie (padj < 0,05; log₂FC > 1), en 2.487 genen significant verlaagd tot expressie (padj < 0,05; log₂FC < −1) (figuur 1).
 
 **Verhoogde expressie van immuunglobuline- en ontsteking gerelateerde genen in Reumatoïde artritis vergeleken met de controlegroep.**
+
+Om genen te identificeren die differentieel tot expressie komen tussen de patiënten met RA en de gezonde controle, werd een differentiële genexpressie-analyse uitgevoerd met DESeq2. In totaal werden 29,407 genen geanalyseerd. Hiervan kwamen 2.085 genen significant verhoogd tot expressie (padj < 0,05; log₂FC > 1), en 2.487 genen significant verlaagd tot expressie (padj < 0,05; log₂FC < −1) [Figuur 1](Resultaten/VolcanoplotReuma.png).
 
 De RNA-seq analyse van synoviaal weefsel lieten duidelijke verschillen zien in genexpressie. In totaal werden er 29407 genen getest op differentiële expressie en deze resultaten zijn in een volcano plot (figuur 1) uitgezet. Op basis van de drempels padj < 0.05 en log2FC > 1 is er een significante toe- of afname zichtbaar in verschillende immuunglobuline-gerelateerde genen(IGHV3-53 [(14)](./Bronnen), IGHV1-69 [(15)](./Bronnen) en IGHV4-31 [(16)](./Bronnen)) en ontsteking gerelateerde genen (CXCR1 [(17)](./Bronnen) en PTGFR [(18)](./Bronnen)). Zie [Figuur 1](Resultaten/VolcanoplotReuma.png). 
 
