@@ -29,8 +29,6 @@ De resultaten van de expressieanalyse werden gevisualiseerd in een volcanoplot m
 
 ## Resultaten
 
-Om genen te identificeren die differentieel tot expressie komen tussen de patiënten met RA en de gezonde controle, werd een differentiële genexpressie-analyse uitgevoerd met DESeq2. In totaal werden 29,407 genen geanalyseerd. Hiervan kwamen 2.085 genen significant verhoogd tot expressie (padj < 0,05; log₂FC > 1), en 2.487 genen significant verlaagd tot expressie (padj < 0,05; log₂FC < −1) (figuur 1).
-
 **Verhoogde expressie van immuunglobuline- en ontsteking gerelateerde genen in Reumatoïde artritis vergeleken met de controlegroep.**
 
 Om genen te identificeren die differentieel tot expressie komen tussen de patiënten met RA en de gezonde controle, werd een differentiële genexpressie-analyse uitgevoerd met DESeq2. In totaal werden 29,407 genen geanalyseerd. Hiervan kwamen 2.085 genen significant verhoogd tot expressie (padj < 0,05; log₂FC > 1), en 2.487 genen significant verlaagd tot expressie (padj < 0,05; log₂FC < −1) [Figuur 1](Resultaten/VolcanoplotReuma.png).
