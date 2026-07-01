@@ -55,7 +55,7 @@ De GO-analyse laat een verrijking zien van biologische processen betrokken bij i
   <img src="Resultaten/GO-analysereuma.png" alt="GO-analyse" width="400">
 </p>
 
-<sub> Figuur 3. Top 10 verrijkte (Gene Ontologie) (GO)-categorieën op basis van de differentieel tot expressie gebrachte genen tussen synoviaal weefsel van patiënten met *Reumatoïde artritis* en gezonde controles. De lengte van de balken geeft de verrijking weer, uitgedrukt als de -log10(p)waarde, waarbij hogere waarden een sterkere statistische significantie aangeven.
+<sub> Figuur 3. Top 10 verrijkte (Gene Ontology) (GO)-categorieën op basis van de differentieel tot expressie gebrachte genen tussen synoviaal weefsel van patiënten met *Reumatoïde artritis* en gezonde controles. De lengte van de balken geeft de verrijking weer, uitgedrukt als de -log10(p)waarde, waarbij hogere waarden een sterkere statistische significantie aangeven.
 
 **Verhoogde T-celactivatie en MAPK-signaaltransductie in RA.**
 
