@@ -25,8 +25,10 @@ Vervolgens werden de BAM-bestanden gesorteerd en geïndexeerd. Met featureCounts
 
 De resultaten van de expressieanalyse werden gevisualiseerd in een volcanoplot met EnhancedVolcano. Vervolgens werd een GO-analyse uitgevoerd met goseq om de biologische processen te identificeren. Hieruit is een KEGG-pathway (hsa04660; T cell receptor signaling pathway) gekozen. Met bitr() zijn de gen-ID's omgezet naar Entrez-ID's.
 
+De methode is hieronder schematisch weergegeven in een flowschema (figuur 1)
+
 <p align="center">
-  <img src="Flowschema/Flowschema.pdf" alt="Flowschema" width="600">
+  <img src="Flowschema/Flowschema.pdf" alt="Flowschema" width="400">
 </p>
 
 <sub> Figuur 1. Flowschema van het onderzoek waarbij de RNA-seq data van de monsters van de patiënten verwerkt door middel van een volcanoplot, Go-analyse en de gekozen pathway.
@@ -35,35 +37,35 @@ De resultaten van de expressieanalyse werden gevisualiseerd in een volcanoplot m
 
 **Verhoogde expressie van immuunglobuline- en ontsteking gerelateerde genen in Reumatoïde artritis vergeleken met de controlegroep.**
 
-Om genen te identificeren die differentieel tot expressie komen tussen de patiënten met RA en de gezonde controle, werd een differentiële genexpressie-analyse uitgevoerd met DESeq2. In totaal werden 29,407 genen geanalyseerd. Hiervan kwamen 2.085 genen significant verhoogd tot expressie (padj < 0,05; log₂FC > 1), en 2.487 genen significant verlaagd tot expressie (padj < 0,05; log₂FC < −1) [Figuur 1](Resultaten/VolcanoplotReuma.png).
+Om genen te identificeren die differentieel tot expressie komen tussen de patiënten met RA en de gezonde controle, werd een differentiële genexpressie-analyse uitgevoerd met DESeq2. In totaal werden 29,407 genen geanalyseerd. Hiervan kwamen 2.085 genen significant verhoogd tot expressie (padj < 0,05; log₂FC > 1), en 2.487 genen significant verlaagd tot expressie (padj < 0,05; log₂FC < −1) [Figuur 2](Resultaten/VolcanoplotReuma.png).
 
-De RNA-seq analyse van synoviaal weefsel lieten duidelijke verschillen zien in genexpressie. In totaal werden er 29407 genen getest op differentiële expressie en deze resultaten zijn in een volcano plot (figuur 1) uitgezet. Op basis van de drempels padj < 0.05 en log2FC > 1 is er een significante toe- of afname zichtbaar in verschillende immuunglobuline-gerelateerde genen(IGHV3-53 [(14)](./Bronnen), IGHV1-69 [(15)](./Bronnen) en IGHV4-31 [(16)](./Bronnen)) en ontsteking gerelateerde genen (CXCR1 [(17)](./Bronnen) en PTGFR [(18)](./Bronnen)). Zie [Figuur 1](Resultaten/VolcanoplotReuma.png). 
+De RNA-seq analyse van synoviaal weefsel lieten duidelijke verschillen zien in genexpressie. In totaal werden er 29407 genen getest op differentiële expressie en deze resultaten zijn in een volcano plot (figuur 2) uitgezet. Op basis van de drempels padj < 0.05 en log2FC > 1 is er een significante toe- of afname zichtbaar in verschillende immuunglobuline-gerelateerde genen(IGHV3-53 [(14)](./Bronnen), IGHV1-69 [(15)](./Bronnen) en IGHV4-31 [(16)](./Bronnen)) en ontsteking gerelateerde genen (CXCR1 [(17)](./Bronnen) en PTGFR [(18)](./Bronnen)). Zie [Figuur 2](Resultaten/VolcanoplotReuma.png). 
 
 <p align="center">
   <img src="Resultaten/VolcanoplotReuma.png" alt="Volcano plot reuma" width="400">
 </p>
 
-<sub> Figuur 1. Volcanoplot van de differentiële genexpressieanalyse (n = 29.407 genen). Elke stip vertegenwoordigd één gen. X-as: log2fold change, Y-as: -log10(P)-waarde. 3 groepen genen worden getoond: Grijs: niet-significante genen, groen: genen met grote fold-change maar niet significant en rood: genen die een grote fold change hebben en significant zijn.
+<sub> Figuur 2. Volcanoplot van de differentiële genexpressieanalyse (n = 29.407 genen). Elke stip vertegenwoordigd één gen. X-as: log2fold change, Y-as: -log10(P)-waarde. 3 groepen genen worden getoond: Grijs: niet-significante genen, groen: genen met grote fold-change maar niet significant en rood: genen die een grote fold change hebben en significant zijn.
 
 **Verhoogde activatie van immuunprocessen in RA.**
 
-De GO-analyse laat een verrijking zien van biologische processen betrokken bij immuungerelateerde processen [(figuur 2)](Resultaten/GO-analysereuma.png). De meest significante GO-categorie is het immunoglobulin complex, gevolgd door adaptive immune respons. Deze resultaten wijzen op een sterke activatie van immuunprocessen in het synoviale weefsel van patiënten met RA. Voor de KEGG-analyse wordt het immuunsysteem bekeken.
+De GO-analyse laat een verrijking zien van biologische processen betrokken bij immuungerelateerde processen [(figuur 3)](Resultaten/GO-analysereuma.png). De meest significante GO-categorie is het immunoglobulin complex, gevolgd door adaptive immune respons. Deze resultaten wijzen op een sterke activatie van immuunprocessen in het synoviale weefsel van patiënten met RA. Voor de KEGG-analyse wordt het immuunsysteem bekeken.
 
 <p align="center">
   <img src="Resultaten/GO-analysereuma.png" alt="GO-analyse" width="400">
 </p>
 
-<sub> Figuur 2. Top 10 verrijkte GO-termen voor up en down-regulated genen bij *Reumatoïde artritis*. De hoogte van de balken geven de -log10(adjusted P-waarde) weer.
+<sub> Figuur 3. Top 10 verrijkte GO-termen voor up en down-regulated genen bij *Reumatoïde artritis*. De hoogte van de balken geven de -log10(adjusted P-waarde) weer.
 
 **Verhoogde T-celactivatie en MAPK-signaaltransductie in RA.**
 
-De KEGG-analyse [(figuur 3)](Resultaten/hsa04660.pathview.png) van de T-celreceptor signaalroute (hsa04660) laat zien dat T-celactivatie verhoogd tot expressie komt. De pathway toont dat zowel co-stimulatoire moleculen zoals CD28, CTLA4 en CD86 en de MAPK-route verhoogde expressie tonen. MAPK is een belangrijke route voor signaaltransductieroutes zoals celprofilatie, celdiffenrentiatie en celdood [(19)](./Bronnen) en dus belangrijke factor in ontstekingsprocessen [(20)](./Bronnen).
+De KEGG-analyse [(figuur 4)](Resultaten/hsa04660.pathview.png) van de T-celreceptor signaalroute (hsa04660) laat zien dat T-celactivatie verhoogd tot expressie komt. De pathway toont dat zowel co-stimulatoire moleculen zoals CD28, CTLA4 en CD86 en de MAPK-route verhoogde expressie tonen. MAPK is een belangrijke route voor signaaltransductieroutes zoals celprofilatie, celdiffenrentiatie en celdood [(19)](./Bronnen) en dus belangrijke factor in ontstekingsprocessen [(20)](./Bronnen).
 
 <p align="center">
   <img src="Resultaten/hsa04660.pathview.png" alt="hsa04660.pathview" width="400">
 </p>
 
-<sub> Figuur 3. KEGG-pathway analyse van *Reumatoïde artritis* (hsa04660) pathway met differentieel tot expressie gebrachte genen. Rood gekleurde genen (upregulated) tonen een log2fold change > 1, groen gekleurde genen (downregulated) tonen een log2foldc change < 1 en de grijs gekleurde genen tonen de genen waarvoor geen differentiële expressie is waargenomen. De kleurintensiviteit geeft de grootte van de log2fold change weer.
+<sub> Figuur 4. KEGG-pathway analyse van *Reumatoïde artritis* (hsa04660) pathway met differentieel tot expressie gebrachte genen. Rood gekleurde genen (upregulated) tonen een log2fold change > 1, groen gekleurde genen (downregulated) tonen een log2foldc change < 1 en de grijs gekleurde genen tonen de genen waarvoor geen differentiële expressie is waargenomen. De kleurintensiviteit geeft de grootte van de log2fold change weer.
 
 
 ## Conclusie
