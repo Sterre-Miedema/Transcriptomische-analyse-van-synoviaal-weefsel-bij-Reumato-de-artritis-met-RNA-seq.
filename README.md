@@ -26,7 +26,7 @@ Vervolgens werden de BAM-bestanden gesorteerd en geïndexeerd. Met featureCounts
 De resultaten van de expressieanalyse werden gevisualiseerd in een volcanoplot met EnhancedVolcano. Vervolgens werd een GO-analyse uitgevoerd met goseq om de biologische processen te identificeren. Hieruit is een KEGG-pathway (hsa04660; T cell receptor signaling pathway) gekozen. Met bitr() zijn de gen-ID's omgezet naar Entrez-ID's.
 
 <p align="center">
-  <img src="Flowschema/Flowschema.png" alt="Flowschema" width="400">
+  <img src="Flowschema/Flowschema.pdf" alt="Flowschema" width="400">
 </p>
 
 <sub> Figuur 1. Flowschema van het onderzoek waarbij de RNA-seq data van de monsters van de patiënten verwerkt door middel van een volcanoplot, Go-analyse en de gekozen pathway.
