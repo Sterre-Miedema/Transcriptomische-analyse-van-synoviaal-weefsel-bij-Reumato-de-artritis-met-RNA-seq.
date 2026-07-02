@@ -71,3 +71,14 @@ De KEGG-analyse [(figuur 4)](Resultaten/hsa04660.pathview.png) van de T-celrecep
 ## Conclusie
 Op basis van de uitgevoerde RNA-seq analyse van synoviaal weefsel uit *reumatoïde artritis* (RA) en gezonde controles kan geconcludeerd worden dat er een verhoogde ontstekingsactiviteit en immuun activatie is. Vooral immuunglobulinegenen en T-cel co-stimulatie moleculen (CD28, CTLA4 en CD86).De analyse van de KEGG-pathway laat zien dat er een belangrijke signaalroute zoals MAPK  en T-celreceptorroute sterk geactiveerd zijn. Dit draagt bij aan celprofilatie, celdifferentiatie en celdood [(19)](./Bronnen) maar ook een grote rol spelen in ontstekingsprocessen [(20)](./Bronnen). Dit komt overeen met de al bekende kenmerken van RA. Ook sluiten de resultaten  goed aan bij de bevindingen uit de studie van Platzer et al. (2019). Hieruit is de gebruikte dataset afkomstig. De combinatie van de DE-analyse, GO-verrijking en de KEGG-pathway visualisatie geeft een goed beeld van RA door ontstekingen en auto-immuun activatie. Het doel is dus behaald.
 
+
+Op basis van de uitgevoerde RNA-seq analyse van synoviaal weefsel uit reumatoïde artritis (RA) en gezonde controles kan uit de volcanoplot geconcludeerd worden dat er een verhoogde ontstekingsactiviteit en immuun activatie is (significant verschil in expressie). Vooral immuunglobulinegenen en T-cel co-stimulatie moleculen (CD28, CTLA4 en CD86).
+
+De GO-analyse toonde vervolgens aan dat vooral immuungerelateerde biologische processen, zoals het immunoglobulin complex en de adaptive immune response, significant verrijkt waren. De analyse van de KEGG-pathway laat zien dat er een belangrijke signaalroute zoals MAPK en T-celreceptorroute sterk geactiveerd zijn. Dit draagt bij aan celprofilatie, celdifferentiatie en celdood [(19)](./Bronnen) maar ook een grote rol spelen in ontstekingsprocessen [(20)](./Bronnen). 
+
+De resultaten sluiten aan bij de huidige kennis over de kenmerken van RA en komen overeen met de bevindingen van Platzer et al. (2019), waarvan de gebruikte dataset afkomstig is.
+
+Het doel van dit onderzoek was om met behulp van transcriptomics te onderzoeken welke genen en biologische routes verschillend tot expressie komen in synoviaal weefsel van patiënten met reumatoïde artritis (RA) ten opzichte van gezonde controles. Op basis van de uitgevoerde RNA-seq-analyse kan worden geconcludeerd dat dit doel is behaald.
+
+Vervolgonderzoek met grotere patiëntengroep en toepassing van technieken zoals single-cell RNA-sequencing wordt aanbevolen om de immuuncellen in het synoviale weefsel beter te karakteriseren. Daarnaast kan een grotere onderzoekspopulatie bijdragen aan een grotere biologische variatie en een hogere statistische betrouwbaarheid van de resultaten [(21,22)](./Bronnen). 
+
